@@ -1,0 +1,55 @@
+/* Centering the whole content */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    background-image: url("https://www.wallpaperflare.com/static/241/890/532/stars-space-galaxy-clouds-wallpaper.jpg" );
+    background-size:100%;
+  
+}
+
+.quote-generator {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 150px;
+    background-color: #365fc0;
+    border-radius: 15px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin-bottom: 100px;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    width: 180px;
+    height: 40px;
+    font-size: 16px;
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: rgb(32, 32, 32);
+}
+
+
+.quotes {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 100px;
+    font-style: italic;
+    font-size: 25px;
+    color: black;
+}
